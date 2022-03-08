@@ -1,0 +1,128 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+header {
+  height: 90px;
+  background-color: #26d0c9;
+  color: #fff;
+}
+
+header h2 {
+  float: left;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 20px 40px;
+}
+
+header li {
+  float: left;
+  margin: 33px 20px;
+}
+
+/* Kode dibawah ini untuk bagian main */
+.main {
+  height: 500px;
+  margin: 100px 80px;
+}
+
+.heading {
+  margin: 100px 80px;
+}
+
+.heading h1 {
+  font-size: 140px;
+}
+
+.heading span {
+  color: #ff4a4a;
+}
+
+.heading h2 {
+  font-size: 60px;
+}
+
+.judul {
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 15px;
+  font-size: 28px;
+}
+
+.lessons {
+  padding-top: 50px;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 36px;
+}
+
+.swift {
+  margin-right: 0px;
+}
+
+.lessons p {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+/* Kode untuk bagian class input */
+.input {
+  margin: 100px 80px;
+}
+
+form {
+  padding-top: 50px;
+}
+
+form p {
+  margin-bottom: 10px;
+}
+
+.masukan {
+  margin-bottom: 30px;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #dee7ec;
+  font-size: 18px;
+}
+
+.button {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+/* Kode untuk bagian class footer */
+footer {
+  height: 120px;
+  background-color: #2f5167;
+  color: #fff;
+  padding: 40px;
+}
+
+.footer-left {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right li {
+  margin-bottom: 20px;
+}
